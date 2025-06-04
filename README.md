@@ -1,105 +1,161 @@
 ## EX-02-Cross-Platform-Prompting-Evaluating-Diverse-Techniques-in-AI-Powered-Text-Summarization
 # AIM
 To evaluate and compare the effectiveness of prompting techniques (zero-shot, few-shot, chain-of-thought, role-based) across different AI platforms (e.g., ChatGPT, Gemini, Claude, Copilot) in a specific task: text summarization.
+ 
+### Aim:
+To compare the performance, user experience, and response quality of different AI platforms (ChatGPT, Claude, Bard, Cohere Command, and Meta) within a specific use case, such as summarizing text or answering technical questions. Generate a Prompt based output using different Prompting tools of 2024.
 
-# Scenario:
-You are part of a content curation team for an educational platform that delivers quick summaries of research papers to undergraduate students. Your task is to summarize a 500-word technical article on "The Basics of Blockchain Technology" using multiple AI platforms and prompting strategies.
+### DATE: 16.04.2025                                                                           
+### REGISTER NUMBER : 212222040181
 
-Your goal is to determine which combination of prompting technique + platform provides the best summary in terms of:
+### Algorithm:
+Define the Use Case:
+Select a specific task for evaluation across platforms (e.g., summarizing a document, answering a technical question, or generating a creative story / Code).
+Ensure the use case is applicable to all platforms and will allow for comparison across response quality, accuracy, and depth.
+Create a Set of Prompts:
+Prepare a uniform set of prompts that align with the chosen use case.
+Each prompt should be clear and precise, ensuring that all platforms are evaluated using the same input.
+Consider multiple prompts to capture the versatility of each platform in handling different aspects of the use case.
+Run the Experiment on Each AI Platform:
+Input the prompts into each AI tool (ChatGPT, Claude, Bard, Cohere Command, and Meta) and gather the responses.
+Ensure the same conditions are applied for each platform, such as input format, time to respond, and prompt delivery.
+Record response times, ease of interaction with the platform, and any technical issues encountered.
+Evaluate Response Quality:
+Assess each platform’s responses using the following criteria: Accuracy,Clarity,Depth,Relevance 
+Compare Performance:
+Compare the collected data to identify differences in performance across platforms.
+Identify any platform-specific advantages, such as faster response times, more accurate answers, or more intuitive interfaces.
+Deliverables:
+A comparison table outlining the performance of each platform (ChatGPT, Claude, Bard, Cohere Command, and Meta) based on accuracy, clarity, depth, and relevance of responses.
+A final report summarizing the findings of the experiment, including recommendations on the most suitable AI platform for different use cases based on performance and user 
 
-Accuracy
+### Introduction:
+Objective: Compare the performance, user experience, and response quality of AI platforms in a specific use case.
+Use Case: [e.g., Summarization, Technical Q&A, Creative Writing]
+AI Platforms Tested: ChatGPT, Claude, Gemini, Meta
+### Experiment Setup:
+Use Case: [Summarization / Technical Q&A / Creative Writing]
+Evaluation Criteria: Accuracy, Response Time, UX (User Experience)
+#### Prompt 1(Summarization): 
+"Summarize the following passage in 2-3 sentences:
+Artificial Intelligence (AI) has rapidly transformed various industries, from healthcare to finance. In healthcare, AI-powered diagnostic tools are improving early disease detection, reducing errors, and assisting doctors in making data-driven decisions. Similarly, in finance, AI-driven algorithms optimize trading strategies, detect fraudulent activities, and enhance customer experiences through personalized services. However, ethical concerns such as bias in AI models, data privacy, and job displacement continue to be challenges that need careful regulation. Experts emphasize the importance of transparency, accountability, and continuous evaluation to ensure AI benefits society without unintended consequences."
+#### Prompt 2(Technical Q&A): 
+Briefly explain how AI helps in fraud detection and its potential risks (limit: 3 sentences).
+#### Prompt 3(Creative Writing): 
+Write a short paragraph (maximum 3 sentences) from the perspective of an AI struggling with emotional intelligence.
 
-Coherence
+#### Response Analysis:
+### ChatGPT Evaluation
+Criteria	Rating (1-5)
 
-Simplicity
+Accuracy (Is the answer correct and relevant?)	4/ 5
 
-Speed
+Response Time (Was the answer given quickly?)	4 / 5
 
-User experience
+UX (User Experience) (Was the interaction smooth and useful?)	4 / 5
 
-# Algorithm
-# 1.Define Use Case
-Identify a realistic personalization scenario (e.g., product recommendations based on user behavior).
+Overall Score (Total)	12/ 15
 
-# 2.Select Prompt Types
-Choose three distinct prompting strategies:
+### Claude Evaluation
 
-Straightforward Prompt Tabular Format Prompt Missing Word Prompt
+Criteria	Rating (1-5)
 
-# 3.Design Prompts
-Write specific prompt examples aligned with the use case for each strategy.
+Accuracy	3/ 5
 
-# 4.Submit to Platforms
-Run each prompt through two different AI platforms (ChatGPT and Claude).
+Response Time	5/ 5
 
-# 5.Collect Outputs
-Record the responses generated by each platform.
+UX (User Experience)	5 / 5
 
-# 6.Evaluate Criteria
-Assess each output based on: Relevance Coherence Customization Depth Responsiveness Tone
+Overall Score (Total)	13/ 15
 
-# 7.Compare and Recommend
-Identify the best-performing combinations and suggest practical applications.
+### Gemini Evaluation
 
-# Use Case:
-AI-Driven Personalization for Travel Recommendations
+Criteria	Rating (1-5)
 
-# Scenario:
-The system tailors vacation packages based on user preferences, including past trips, browsing history, and travel-related interests. For instance, it offers personalized recommendations for destinations, accommodation types, activities, and experiences.
+Accuracy	3/ 5
 
-# 1. Straightforward Prompt
-# Prompt:
-```
-"The user recently browsed tropical destinations, booked a beach resort, and added a diving course to their wishlist. Suggest personalized vacation packages."
-```
-# Outputs:
-# ChatGPT:
-Based on your interest in tropical destinations, I recommend a trip to Bali with options for scuba diving and a stay at a luxury beachfront resort. You may also like a snorkeling adventure in the Maldives or a yoga retreat in Costa Rica.
+Response Time	3 / 5
 
-# Claude:
-Since you’ve been exploring tropical escapes and diving activities, I suggest considering destinations like the Maldives with exclusive diving tours and resorts, or perhaps a wellness retreat in the Bahamas with guided underwater explorations.
+UX (User Experience)	3.5 / 5
 
-# Evaluation:
-![image](https://github.com/user-attachments/assets/308bc314-5856-4768-9a7b-fc1e1105a784)
+Overall Score (Total)	10 / 15
 
-Winner: ChatGPT – Slightly more specific and product-rich recommendations.
+### Meta Evaluation
 
-# 2. Tabular Format Prompting
-# Prompt:
-```
-Based on the table below, generate personalized vacation packages.
+Criteria	Rating (1-5)
 
-Recently Viewed	Booked	Wishlist
-Bali	Beach Resort	Diving Course
-Maldives	-	Snorkeling Adventure
-```
-# Outputs:
-# ChatGPT:
-Recommended Vacation Packages: • Beachfront resort in Bali with a diving certification course. • Maldives all-inclusive resort with snorkeling and private tours. • Costa Rica eco-lodge with underwater excursions and yoga.
+Accuracy	4/ 5
 
-# Claude:
-Personalized Travel Suggestions: • Diving package in the Bahamas, complete with resort and activity booking. • Private Maldives villa with a guided snorkeling tour and beach access. • Bali wellness package that includes diving and local cultural experiences.
+Response Time	3/ 5
 
-# Evaluation:
-![image](https://github.com/user-attachments/assets/55327465-b176-4823-933a-1e42f4129479)
+UX (User Experience)	4 / 5
 
-Winner: Tie – Both platforms interpreted the tabular input effectively.
+Overall Score (Total)	11 / 15
 
-# 3. Missing Word Prompting
-# Prompt:
-```
-"User is interested in [tropical destinations] and [beach resorts]. Suggest vacation packages like _______."
-```
-# Outputs:
-# ChatGPT:
-You might enjoy an all-inclusive stay in the Maldives, complete with guided snorkeling tours, or a luxury resort in Hawaii with surfing lessons and oceanfront villas.
+### Final Winner
+#### Best Overall AI: Claude
+Reason: The User Experience was good and colour full compared to others
 
-# Claude:
-Explore trips to the Caribbean with private beach villas and optional water sport packages, or perhaps a retreat in the Seychelles featuring beach activities and local cultural experiences.
+### AI outputs:
+#### 1: Prompt 1(Summarization): "Summarize the following passage in 2-3 sentences:
+Artificial Intelligence (AI) has rapidly transformed various industries, from healthcare to finance. In healthcare, AI-powered diagnostic tools are improving early disease detection, reducing errors, and assisting doctors in making data-driven decisions. Similarly, in finance, AI-driven algorithms optimize trading strategies, detect fraudulent activities, and enhance customer experiences through personalized services. However, ethical concerns such as bias in AI models, data privacy, and job displacement continue to be challenges that need careful regulation. Experts emphasize the importance of transparency, accountability, and continuous evaluation to ensure AI benefits society without unintended consequences."
 
-# Evaluation:
-![image](https://github.com/user-attachments/assets/979ab7be-3bdc-44e1-af9b-40c822bdc37d)
-Winner: Claude – Slightly more creative with diverse vacation options.
+Chat CPT:
 
-# Result:
-Thus, the summarized Result section based on the experiment using the three prompt types (Straightforward, Tabular Format, Missing Word) and two AI platforms (ChatGPT and Claude).
+![image](https://github.com/user-attachments/assets/c5034fb1-26f4-4308-991d-c1e7e79f6741)
+
+Claude:
+
+![image](https://github.com/user-attachments/assets/f9fb0e67-053c-475e-b5b0-39f2a1128b32)
+
+Gemini:
+
+![image](https://github.com/user-attachments/assets/eb2065b8-dc4e-446a-b866-9bbc67ffca07)
+
+Meta:
+
+![image](https://github.com/user-attachments/assets/9e386b50-185b-4f25-8fc9-514ac00aaa1e)
+
+#### 2: Prompt 2(Technical Q&A): Briefly explain how AI helps in fraud detection and its potential risks (limit: 3 sentences).
+
+Chat GPT:
+
+![image](https://github.com/user-attachments/assets/3e0d9856-e6ac-41d0-9d9a-c3d5b87a7ce8)
+ 
+Claude:
+
+![image](https://github.com/user-attachments/assets/f85974f5-4f83-431f-bf82-7e5e87ab814a)
+
+Gemini:
+
+![image](https://github.com/user-attachments/assets/16615e6e-f209-4ff3-ae3e-9f6dd3125b93)
+ 
+Meta:
+
+![image](https://github.com/user-attachments/assets/7241a433-2e52-4647-923c-02b4360bdee5)
+
+#### 3: Prompt 3(Creative Writing): Write a short paragraph (maximum 3 sentences) from the perspective of an AI struggling with emotional intelligence.
+
+Chat GPT:
+
+![image](https://github.com/user-attachments/assets/9c53f77f-486e-463a-a1d4-0192724ef531)
+ 
+Claude:
+
+![image](https://github.com/user-attachments/assets/e6bfd27e-e7f3-4784-bbc4-f85f00ca0019)
+
+Gemini:
+
+![image](https://github.com/user-attachments/assets/e97f0cad-b819-4d24-8ae5-834a85a2e1db)
+
+Meta:
+
+![image](https://github.com/user-attachments/assets/10e76f4c-5377-4525-9ec9-398a58d28a24)
+
+ 
+### Conclusion & Insights:
+### Best Performing AI:  Claude
+Claude emerged as the best-performing AI platform in this evaluation, offering the most balanced experience across accuracy, response time, and user experience. While ChatGPT and Meta showed strong accuracy, Claude’s quick responses and smooth, user-friendly interface gave it the edge overall. Gemini performed modestly, with room for improvement in both speed and content quality. Ultimately, Claude is recommended for users seeking an all-around reliable AI, while those prioritizing technical accuracy might prefer ChatGPT or Meta.
+
+### Result:
+Thus the Prompting tools are executed and analysed sucessfully .
